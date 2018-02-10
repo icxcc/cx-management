@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 body.sticky-footer {
@@ -12,11 +12,12 @@ body.sticky-footer {
 }
 
 body.sticky-footer .content-wrapper {
-  min-height: calc(100vh - 56px - 56px);
+  min-height: calc(100vh - 60px - 60px);
+  overflow: hidden;
 }
 
 body.fixed-nav {
-  padding-top: 56px;
+  padding-top: 40px;
 }
 
 .content-wrapper {
@@ -242,7 +243,7 @@ body.fixed-nav {
 }
 
 body.sidenav-toggled #mainNav.fixed-top .sidenav-toggler {
-  overflow-x: hidden;
+  overflow: hidden;
   width: 55px;
 }
 
